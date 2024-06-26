@@ -1,0 +1,21 @@
+ nav {
+            background-color: #333;
+        }
+        nav table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        nav td {
+            width: 25%; /* Ensure each cell takes an equal share of the table width */
+            text-align: center;
+            padding: 14px 0; /* Adjust padding to make clickable area larger */
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        nav a:hover {
+            background-color: #111;
+        }
